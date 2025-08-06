@@ -1,0 +1,188 @@
+[{
+  "_id": {
+    "$oid": "64f3a1c2d123456789abcd12"
+  },
+  "title": "Tech Conference 2025",
+  "description": "A conference showcasing the latest trends in AI, IoT, and Cloud Computing.",
+  "image": "https://example.com/images/tech-conference.jpg",
+  "category": "Technology",
+  "location": {
+    "venue": "International Expo Center",
+    "city": "Casablanca",
+    "country": "Morocco",
+    "address": "123 Main Street",
+    "mapLink": "https://maps.google.com/?q=International+Expo+Center"
+  },
+  "date": {
+    "start": {
+      "$date": "2025-09-10T09:00:00.000Z"
+    },
+    "end": {
+      "$date": "2025-09-12T18:00:00.000Z"
+    }
+  },
+  "price": {
+    "currency": "MAD",
+    "amount": 350
+  },
+  "availableSeats": 500,
+  "organizer": {
+    "name": "TechWorld Inc.",
+    "contactEmail": "info@techworld.com",
+    "phone": "+212600000000"
+  },
+  "tags": [
+    "AI",
+    "Cloud",
+    "IoT",
+    "Conference"
+  ],
+  "createdAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "64f3a1c2d123456789abcd13"
+  },
+  "title": "Marrakech Music Festival 2025",
+  "description": "Experience an unforgettable weekend of live performances from world-renowned artists and DJs.",
+  "image": "https://example.com/images/marrakech-festival.jpg",
+  "category": "Music",
+  "location": {
+    "venue": "Marrakech Open Air Stadium",
+    "city": "Marrakech",
+    "country": "Morocco",
+    "address": "Boulevard Mohammed VI",
+    "mapLink": "https://maps.google.com/?q=Marrakech+Open+Air+Stadium"
+  },
+  "date": {
+    "start": {
+      "$date": "2025-11-20T18:00:00.000Z"
+    },
+    "end": {
+      "$date": "2025-11-22T23:00:00.000Z"
+    }
+  },
+  "price": {
+    "currency": "MAD",
+    "amount": 250
+  },
+  "availableSeats": 1000,
+  "organizer": {
+    "name": "EventPro",
+    "contactEmail": "contact@eventpro.com",
+    "phone": "+212600123456"
+  },
+  "tags": [
+    "Festival",
+    "Concert",
+    "Outdoor",
+    "Music"
+  ],
+  "createdAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "64f3a1c2d123456789abcd14"
+  },
+  "title": "African Startup Pitch Day 2025",
+  "description": "A platform for African startups to showcase their innovations and connect with investors.",
+  "image": "https://example.com/images/startup-pitch.jpg",
+  "category": "Business",
+  "location": {
+    "venue": "Casablanca Finance City Conference Hall",
+    "city": "Casablanca",
+    "country": "Morocco",
+    "address": "CFC Tower, Business District",
+    "mapLink": "https://maps.google.com/?q=CFC+Conference+Hall"
+  },
+  "date": {
+    "start": {
+      "$date": "2025-10-05T09:00:00.000Z"
+    },
+    "end": {
+      "$date": "2025-10-05T17:00:00.000Z"
+    }
+  },
+  "price": {
+    "currency": "MAD",
+    "amount": 150
+  },
+  "availableSeats": 300,
+  "organizer": {
+    "name": "InnovAfrica",
+    "contactEmail": "info@innovafrica.com",
+    "phone": "+212601234567"
+  },
+  "tags": [
+    "Startup",
+    "Pitch",
+    "Investment",
+    "Networking"
+  ],
+  "createdAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "64f3a1c2d123456789abcd15"
+  },
+  "title": "International Film Festival 2025",
+  "description": "Celebrating cinema from around the globe with screenings, workshops, and awards.",
+  "image": "https://example.com/images/film-festival.jpg",
+  "category": "Entertainment",
+  "location": {
+    "venue": "Royal Theatre",
+    "city": "Rabat",
+    "country": "Morocco",
+    "address": "Avenue Hassan II",
+    "mapLink": "https://maps.google.com/?q=Royal+Theatre+Rabat"
+  },
+  "date": {
+    "start": {
+      "$date": "2025-12-01T10:00:00.000Z"
+    },
+    "end": {
+      "$date": "2025-12-07T22:00:00.000Z"
+    }
+  },
+  "price": {
+    "currency": "MAD",
+    "amount": 200
+  },
+  "availableSeats": 800,
+  "organizer": {
+    "name": "Morocco Film Society",
+    "contactEmail": "contact@moroccofilms.org",
+    "phone": "+212602345678"
+  },
+  "tags": [
+    "Cinema",
+    "Movies",
+    "Festival",
+    "Culture"
+  ],
+  "createdAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-06T10:00:00.000Z"
+  },
+  "status": "active"
+}]

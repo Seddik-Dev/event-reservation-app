@@ -1,12 +1,11 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layouts from "../Router/pages/Layouts";
+
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layouts />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
